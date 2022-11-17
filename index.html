@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CasaRoyal</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <span href="">110911 Colombia, Cundinamarca </span>
+            <span href="">(601)3333333 </span>
+            <span href="">Lun-Dom: 8:00am - 6:00pm </span>
+            <a href="" class="uno">INGRESAR/REGISTRARSE </a>
+        </nav>
+    </header>
+    <div>
+        <nav>
+            <img src="imagenes/Logo.png" class="logo">
+            <a href="" class="home">pagina principal</a>
+            <a href="">Propiedades</a>
+            <a href="">Agencias</a>
+            <a href="">Paginas</a>
+            <a href="">Sobre</a>
+            <a href="">Contactos</a>
+            <button type="submit" class="boton">Enviar listado</button>
+        </nav>
+    </div>
+    <main>
+        <div class="heider">
+            <div class="seccion-principal">
+                <h1 class="title">Déjanos guiarte a casa</h1>
+                <p class="title2">encuentra la casa de tus sueños</p>
+
+                <form action="busqueda.html">
+                    <div class="formulario">
+                        <label for="name" class="tipoo">Tipo</label>
+                        <select name="tipocasa" id="name">
+                            <option class="seleccion" value="select">Seleccionar tipo de vivienda</option>
+                            <option value="casa">Casa</option>
+                            <option value="Finca">Finca</option>
+                            <option value="Apto">Apartamento</option>
+                            <option value="Local comercial">Local Comercial</option>
+                        </select>
+                        <label class="estrato" for="Estrato">Estrato</label>
+                        <select name="estrato" id="Estrato">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                    <input class="suburbio" type="text" name="q"
+                        placeholder="Buscar propiedades suburbios, o palabras clave...">
+                    <button type="submit" id="button" class="boton2">Encontrar Propiedades</button>
+                </form>
+
+            </div>
+        </div>
+
+        <div class="menu-propiedades">
+            <h6 class="complemento">CASAROYAL AGENCIA INMOBILIARIA</h6>
+            <h2 class="titulo">Propiedades destacadas</h2>
+            <div id="contenedores-menu"> </div>
+        </div>
+    </main>
+    <script src="./script.js" type="module" defer></script>
+
+</body>
+
+</html>

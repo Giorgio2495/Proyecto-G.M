@@ -1,0 +1,342 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+header {
+  width: 100%;
+  height: 54px;
+  position: sticky;
+  background: #2a41e8;
+  display: flex;
+  align-items: center;
+}
+.uno {
+  background: #2a41e8;
+  text-decoration: none;
+  position: relative;
+  height: 17px;
+  left: 67%;
+  right: 0%;
+  padding: 10px 20px;
+  color: white;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav span {
+  color: white;
+  padding: 10px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+}
+nav a {
+  background: #ffffff;
+  color: #4b4d4f;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 82px;
+  text-decoration: none;
+}
+.casa {
+  color: #4b4d4f;
+  height: 33px;
+  left: 22.37%;
+  right: 15.77%;
+  top: calc(50% - 33px / 2 + 1.5px);
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+}
+.boton {
+  background: #ff5e14;
+  color: #ffffff;
+  border: none;
+  margin-left: 27.1%;
+}
+.home {
+  color: #2a41e8;
+}
+
+.centrar-titulo {
+  text-align: center;
+  margin-top: 100px;
+}
+.heider {
+  background-image: url(./imagenes/hero-bg-image.png);
+}
+.seccion-principal {
+  height: 660px;
+}
+.title,
+.title2 {
+  color: white;
+  padding-left: 227px;
+}
+.title {
+  padding-top: 157px;
+}
+.title2 {
+  margin-top: 12px;
+}
+.formulario {
+  background-color: white;
+  margin: auto;
+  width: 70%;
+  height: 119px;
+  margin-top: 54px;
+  border-radius: 5px;
+  padding-left: 20px;
+}
+.boton2 {
+  width: 214px;
+  height: 60px;
+  border-radius: 4px;
+  border: 0ch;
+  margin-top: 15px;
+  margin-left: 18%;
+  color: white;
+  background-color: #2a41e8;
+}
+.pfinal {
+  text-align: center;
+}
+.tipoo {
+  color: #9b9b9b;
+  font-size: 14px;
+}
+
+.boton2 {
+  position: absolute;
+
+  top: 439px;
+
+  left: 548px;
+}
+
+.estrato {
+  color: #9b9b9b;
+}
+
+#contenedores-menu {
+  padding-bottom: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 95%;
+  margin: auto;
+}
+.complemento {
+  color: #8c8c8c;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.titulo {
+  font-size: 56px;
+  line-height: 66px;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.tarjetas {
+  width: 398px;
+  box-shadow: 0px 0px 7px #7a7a7a5c;
+  border-radius: 4px;
+  overflow: hidden;
+  padding-bottom: 25px;
+}
+.tarjeta-imagen {
+  width: 100%;
+  height: 278px;
+  background-size: cover;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.tarjeta-propi-tipo {
+  background-color: #2a42e8;
+  color: white;
+  padding: 8px 11px;
+  border-radius: 4px;
+}
+.tarjeta-propi-estado {
+  background-color: #ff5e15;
+  color: white;
+  padding: 13px 11px;
+}
+
+.tarjeta-top {
+  display: flex;
+  gap: 4px;
+}
+.tarjeta-bottom {
+  display: flex;
+  gap: 4px;
+}
+.tarjeta-propi-price {
+  background-color: #fff;
+  color: #2a42e8;
+  padding: 6px 17px 6px 16px;
+  border-radius: 4px;
+  margin-right: auto;
+}
+.tarjeta-propi-black-cuadro {
+  background-color: #4c4c4c;
+}
+.tarjeta-propi-cuadro {
+  background-color: #2a42e8;
+  margin-left: auto;
+}
+.tarjeta-info {
+  padding: 10px 24px;
+}
+.tarjeta-propi-location {
+  font-weight: 400;
+  color: #848484;
+  margin-bottom: 23px;
+}
+.tarjeta-propi-full-location {
+  font-weight: 400;
+  margin-bottom: 23px;
+}
+
+.tarjeta-propi-owner {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 40px;
+}
+.tarjeta-propi-owner-photo {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+}
+.tarjeta-propi-owner-name {
+  color: #2a42e8;
+}
+.tarjeta-propi-date {
+  color: #848484;
+  margin-left: auto;
+  font-size: 14px;
+}
+.tarjeta-propi-features {
+  display: flex;
+  gap: 25px;
+}
+.tarjeta-propi-sq {
+  margin-right: auto;
+}
+
+#name,
+#Estrato {
+  margin-top: 10px;
+  display: block;
+}
+
+.suburbio {
+  /*float: right;*/
+  top: 450px;
+  right: 600px;
+  padding: 10px;
+  position: absolute;
+  border: none;
+  width: 20%;
+  font-size: 18px;
+}
+
+@media (max-width: 700px) {
+  .uno {
+    top: 7px;
+    left: 173px;
+    width: 48%;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  .boton2 {
+    position: absolute;
+    top: 554px;
+    left: 82px;
+  }
+
+  nav {
+    display: block;
+    width: 100%;
+  }
+
+  nav a {
+    line-height: 30px;
+  }
+
+  .logo {
+    margin: auto;
+    height: 100%;
+    display: flex;
+  }
+
+  .boton {
+    padding: 10px;
+    border-radius: 5px;
+    margin: auto;
+    display: flex;
+  }
+
+  .seccion-principal {
+    margin-top: 7px;
+    height: 400px;
+  }
+
+  .title,
+  .title2 {
+    padding-left: 10px;
+    padding-top: 0;
+  }
+
+  .title2 {
+    margin-top: 0;
+  }
+
+  .title {
+    font-size: 30px;
+    padding-top: 82px;
+  }
+
+  .boton2 {
+    margin-left: 0;
+    height: 40px;
+  }
+
+  .formulario {
+    padding-top: 20px;
+    height: 164px;
+  }
+
+  .tipoo,
+  .estrato,
+  #Estrato {
+    display: block;
+  }
+
+  .suburbio {
+    margin-top: 10px;
+  }
+}
