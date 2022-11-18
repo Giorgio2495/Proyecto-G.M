@@ -6,103 +6,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tilos.css">
     <title>Document</title>
-    <style>
-        body {
-            display: flex;
-
-        }
-
-        .cuerpo-propi-owner-photo {
-            width: 80px;
-            height: 80px;
-            border-radius: 100%;
-        }
-
-        .black-conten {
-            background-color: black;
-            color: white;
-            text-align: center
-        }
-
-        .superior {
-
-            font-size: 18px;
-        }
-
-        #valor {
-            background: #7e472d;
-            width: 50%;
-            margin: auto;
-
-            border-radius: 20px
-        }
-
-        #descripcion {
-            font-size: 36px
-        }
-
-        .inferior {
-            display: flex;
-            gap: 10px;
-        }
-
-        #imagen {
-            background-size: cover;
-            width: 443px;
-            background-repeat: no-repeat;
-        }
-
-        @media (max-width:680px) {
-
-            body {
-                margin: 0;
-                display: block;
-            }
-
-            .cuerpo-propi-owner-photo {
-                width: 50px;
-                height: 50px;
-                border-radius: 100%;
-            }
-
-            .black-conten {
-
-                text-align: center
-            }
-
-            .superior {
-                padding: 17%;
-                font-size: 18px;
-            }
-
-            .inferior {
-                display: block;
-                gap: 5px;
-            }
-
-            #valor {
-                background: #FF5E15;
-            }
-
-            #descripcion {
-                font-size: 26px
-            }
-
-            #imagen {
-
-
-                background-repeat: no-repeat;
-                width: 100%;
-                height: 269px;
-                background-size: auto;
-            }
-        }
-    </style>
-
-
-
-</head>
+   </head>
 
 <body>
 
@@ -126,7 +32,7 @@
             <img height="38px" src="./img/propiedades/icos/Bedroom Icon.png" alt="" srcset="">
             <p id="habitaciones"></p>
             <img height="38px" src="./img/propiedades/icos/Bathroom Icon.png " alt="" srcset="">
-            <p id="bats"></p>
+            <p id="banos"></p>
             <img height="38px" src="./img/propiedades/icos/Garage Icon.png " alt="" srcset="">
             <p id="parqueadero"></p>
         </div>
@@ -144,7 +50,7 @@
             document.getElementById("descripcion").innerText = data.descripcion;
             document.getElementById("area").innerText = data.area + " mt2";
             document.getElementById("parqueadero").innerText = data.parqueo + " parqueo";
-            document.getElementById("bats").innerText = data.banos + " baños";
+            document.getElementById("banos").innerText = data.banos + " banos";
             document.getElementById("habitaciones").innerText = data.habits + " habitaciones";
             document.getElementById("imagen").style.backgroundImage = `url(${data.imagen})`
         });

@@ -1,5 +1,5 @@
 export const tarjetas = (propiedades) => {
-  const generador = /*html*/ `
+  const generador =`
     <a class="tarjetas" href="yes.html?id=${propiedades.id}" >
     <div class="tarjeta-imagen" style="background-image:url(/${propiedades.imagen})">
       <div class="tarjeta-top">
