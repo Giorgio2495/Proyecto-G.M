@@ -17,7 +17,7 @@ export const tarjetas = (propiedades) => {
       <h2 class="tarjeta-propi-location">${propiedades.ubicacion}</h2>
       <div class="tarjeta-propi-full-location">${propiedades.direccion}</div>
         <div class="tarjeta-propi-owner">
-          <img src= "https://thispersondoesnotexist.com/image" class="tarjeta-propi-owner-photo">
+          <img src= "https://d500.epimg.net/cincodias/imagenes/2016/03/16/lifestyle/1458143779_942162_1458143814_noticia_normal.jpg" class="tarjeta-propi-owner-photo">
           <div class="tarjeta-propi-owner-name">${propiedades.dueno}</div>
           <div class="tarjeta-propi-date">${propiedades.hace}</div>
         </div>
