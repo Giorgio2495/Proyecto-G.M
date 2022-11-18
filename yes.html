@@ -44,7 +44,7 @@
         let dato_enlace = window.location.search.split("=")[1];
         consumir_objeto(dato_enlace).then((data) => {
             document.getElementById("valor").innerText = "puede ser tuyo por " + data.precio;
-            document.getElementById("ubicacion").innerText = data.ubicacion;
+            document.getElementById("ubicacion").innerText = data.ubicacion; 
             document.getElementById("direccion").innerText = data.direccion;
             document.getElementById("propietario").innerText = data.dueno;
             document.getElementById("descripcion").innerText = data.descripcion;
